@@ -40,7 +40,7 @@ i {
     display: flex;
     width: 80%;
     min-height: 95vh;
-    margin-top: 5vh;
+    margin-top: 2vh;
     flex-direction: column;
     gap: var(--gap);
     padding-bottom: 30px;
