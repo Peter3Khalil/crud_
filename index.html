@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cruds</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+<!--
+    <i class="material-symbols-outlined" id="set">
+        settings
+    </i>
+    <i class="material-symbols-outlined" id="toggle" onclick="turnOnOff()">
+toggle_on
+</i>
+-->
+
+    <div class="container">
+        <div class="head">
+            <div class="text">
+                <h2>Cruds</h2>
+                <p>product management system</p>
+            </div>
+        </div>
+        <div class="inputs">
+            <input type="text" id="title" placeholder="title" maxlength="25">
+            <div class="prices">
+                <input type="text" id="price" placeholder="price" maxlength="25">
+                <input type="text" id="ads" placeholder="ads">
+                <input type="text" id="taxes" placeholder="taxes" maxlength="25">
+                <input type="text" id="dis" placeholder="discount" maxlength="25">
+                <p></p>
+            </div>
+            <input type="text" id="amount" placeholder="Amount" maxlength="25">
+            <input type="text" id="category" placeholder="category" maxlength="25">
+            <input type="button" id="btn" value="create" class="btns">
+            <div class="searchBlock">
+                <input type="text" id="search" placeholder="search" maxlength="25">
+                <div class="searchOption">
+                    <input type="button" class="btns" id="searchByTitle" value="search By Title">
+                    <input type="button" class="btns" id="searchByCategory" value="search By Category">
+                </div>
+            </div>
+            <div class="deleteAll">
+            </div>
+
+        </div>
+        <div class="tableContainer">
+            <table class="table-content">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>TITLE</th>
+                        <th>price</th>
+                        <th>taxes</th>
+                        <th>ads</th>
+                        <th>discount</th>
+                        <th>amount</th>
+                        <th>category</th>
+                        <th>ubdate</th>
+                        <th>delete</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>oppo</td>
+                        <td>1000</td>
+                        <td>100</td>
+                        <td>50</td>
+                        <td>10</td>
+                        <td>100</td>
+                        <td>Phone</td>
+                        <td><button class="update">update</button></td>
+                        <td><button class="delete">delete</button></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>oppo</td>
+                        <td>1000</td>
+                        <td>100</td>
+                        <td>50</td>
+                        <td>10</td>
+                        <td>100</td>
+                        <td>Phone</td>
+                        <td><button class="update">update</button></td>
+                        <td><button class="delete">delete</button></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>oppo</td>
+                        <td>1000</td>
+                        <td>100</td>
+                        <td>50</td>
+                        <td>10</td>
+                        <td>100</td>
+                        <td>Phone</td>
+                        <td><button class="update">update</button></td>
+                        <td><button class="delete">delete</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
